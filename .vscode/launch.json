@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-wasm-demo}",
+            "name": "Debug WasmDemo",
+            "program": "${workspaceFolder:swift-wasm-demo}/.build/debug/WasmDemo",
+            "preLaunchTask": "swift: Build Debug WasmDemo"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-wasm-demo}",
+            "name": "Release WasmDemo",
+            "program": "${workspaceFolder:swift-wasm-demo}/.build/release/WasmDemo",
+            "preLaunchTask": "swift: Build Release WasmDemo"
+        }
+    ]
+}
