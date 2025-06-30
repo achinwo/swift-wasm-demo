@@ -22,7 +22,7 @@ struct AppDemo: View {
         let document = JSObject.global.document
         document.body.innerHTML = JSValue(stringLiteral: """
         <h1>Welcome to Swift Wasm Demo!</h1>
-        <p>This is a bug reproducer for demoing loss of conformance across module boundary:</p>
+        <p>This is a bug reproducer for loss of conformance issue across module boundary:</p>
         \(app.body)
         """)
 #endif

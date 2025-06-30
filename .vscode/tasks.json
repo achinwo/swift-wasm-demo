@@ -6,7 +6,7 @@
         {
             "label": "carton dev",
             "type": "shell",
-            "command": "~/.swiftly/bin/swift run carton dev --port 8088",
+            "command": "~/.swiftly/bin/swift run carton dev --port 8089",
             "problemMatcher": []
         }
     ]
